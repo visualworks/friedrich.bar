@@ -1,0 +1,12 @@
+body {
+    font-family: "Playfair Display", serif;
+}
+
+.has-text-primary {
+    color: #fff;
+}
+
+a, .has-text-info, .has-text-link, .has-text-success,
+h3.has-text-info {
+    color: #ff5c39 !important;
+}
