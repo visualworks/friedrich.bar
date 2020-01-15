@@ -1,12 +1,59 @@
+/* Color Theme Swatches in Hex */
+.Black-Rifle-Coffee-Company-1-hex { color: #2c3e29; }
+.Black-Rifle-Coffee-Company-2-hex { color: #d6a604; }
+.Black-Rifle-Coffee-Company-3-hex { color: #404040; }
+.Black-Rifle-Coffee-Company-4-hex { color: #000; }
+.Black-Rifle-Coffee-Company-5-hex { color: #adaaaa; }
+
+/*!* Color Theme Swatches in RGBA *!*/
+/*.Black-Rifle-Coffee-Company-1-rgba { color: rgba(44, 62, 41, 1); }*/
+/*.Black-Rifle-Coffee-Company-2-rgba { color: rgba(214, 166, 4, 1); }*/
+/*.Black-Rifle-Coffee-Company-3-rgba { color: rgba(64, 64, 64, 1); }*/
+/*.Black-Rifle-Coffee-Company-4-rgba { color: rgba(0, 0, 0, 1); }*/
+/*.Black-Rifle-Coffee-Company-5-rgba { color: rgba(173, 170, 170, 1); }*/
+
+/*!* Color Theme Swatches in HSLA *!*/
+/*.Black-Rifle-Coffee-Company-1-hsla { color: hsla(111, 20, 20, 1); }*/
+/*.Black-Rifle-Coffee-Company-2-hsla { color: hsla(46, 96, 42, 1); }*/
+/*.Black-Rifle-Coffee-Company-3-hsla { color: hsla(0, 0, 25, 1); }*/
+/*.Black-Rifle-Coffee-Company-4-hsla { color: hsla(0, 0, 0, 1); }*/
+/*.Black-Rifle-Coffee-Company-5-hsla { color: hsla(0, 1, 67, 1); }*/
+
 body {
-    font-family: "Playfair Display", serif;
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+    background-color: #000;
 }
 
 .has-text-primary {
-    color: #fff;
+    color: #d6a604 !important;
 }
 
-a, .has-text-info, .has-text-link, .has-text-success,
-h3.has-text-info {
-    color: #ff5c39 !important;
+.has-text-green {
+    color: #2c3e29 !important;
+}
+
+.has-text-info, .has-text-info p,
+.has-text-info strong, .has-text-info a {
+    color: #adaaaa !important;
+}
+
+section.hero {
+    background-image: url("../img/banner-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+div#video-about iframe {
+    height: 315px;
+    min-height: 315px;
+    max-height: 315px;
+    min-width: 560px;
+    width: 560px;
+    max-width: 560px;
+}
+
+footer.footer {
+    background-color: #000;
 }
